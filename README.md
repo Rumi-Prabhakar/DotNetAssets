@@ -1,5 +1,5 @@
 # DotNetAssets - Learning project to emulate accessing a store of Dev issues/workarounds faced in a Project development cycle
-Tech Stack: .NET 6.0, EF.Core 6.0, Sql Server, uses NLog,  Authentication/Authorization using Jwt
+Tech Stack: .NET 6.0, EF.Core 6.0, AutoMapper, Sql Server, uses NLog,  Authentication/Authorization using Jwt
 Uses **Repository Pattern** : A Design Pattern  that helps create an abstraction layer between the data access layer and the business logic layer of an application. 
 Implementing these pattern can help insulate an application from changes in the data store and helps facilitate automated unit testing 
 Demonstrates  : 
@@ -9,4 +9,6 @@ Demonstrates  :
 - Explanatory Method Names
 - Early return
 - DI
+- use async methods for a scalable design
+- use records for Dto
   
